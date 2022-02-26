@@ -6,21 +6,30 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generate": "node ./mockserver/generate.js > ./mockserver/database.json",
+    "mockserver": "json-server --watch ./mockserver/database.json"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.0",
+    "@angular/cdk": "^13.2.4",
     "@angular/common": "~13.2.0",
     "@angular/compiler": "~13.2.0",
     "@angular/core": "~13.2.0",
     "@angular/forms": "~13.2.0",
+    "@angular/material": "^13.2.4",
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "angular-mgl-timeline": "^0.4.0",
+    "json-server": "^0.17.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "ng-particles": "^2.7.3",
+    "tsparticles": "^1.24.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.2.5",
