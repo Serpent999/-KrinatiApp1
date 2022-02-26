@@ -1,4 +1,6 @@
 # KrinatiApp1
+# References:
+https://www.w3schools.com/howto/howto_css_timeline.asp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
